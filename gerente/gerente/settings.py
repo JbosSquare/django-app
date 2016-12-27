@@ -25,7 +25,7 @@ SECRET_KEY = 'gye-$!m88ta5efhyu9!dt(%$s$30@aru=l+1l97ypz+hj1$4m1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jbossquare.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'suporteTeamManager'
+    'suporteTeamManager',
 )
 
 MIDDLEWARE_CLASSES = (
