@@ -3,6 +3,11 @@
         <title>Suporte Team Manager</title>
     </head>
     <body>
-        <p>OPA! FUNFOU!</p>
+            <p>OPA! FUNFOU!</p>
+
+            {%for cliente in clientes%}
+                <br>
+                {{cliente}}
+            {%endfor%}
     </body>
 </html>
